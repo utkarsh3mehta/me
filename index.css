@@ -1,0 +1,35 @@
+/* ************
+CSS for utkarshmehta.me
+** Author: Utkarsh Mehta
+************ */
+
+/* Mobile first design */
+
+div.bodySection {
+    position: relative;
+}
+
+div.bodySection>div {
+    height: 50vh;
+}
+
+div#hi {
+    background-color: black;
+    color: blueviolet;
+    font-size: 40vw;
+}
+
+div#itsme {
+    background-color: blueviolet;
+    color: black;
+    font-size: 40vw;
+}
+
+@media screen and (min-width: 600px) {
+    nav>div.screen-menu-items {
+        display: flex
+    }
+    div.bodySection {
+        flex-direction: row;
+    }
+}
