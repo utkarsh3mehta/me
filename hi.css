@@ -1,0 +1,33 @@
+/* ************
+CSS for utkarshmehta.me/hi page
+** Author: Utkarsh Mehta
+************ */
+
+/* Mobile first design */
+
+h1#hi {
+    font-size: 40vw;
+    font-weight: 100;
+}
+
+.container>p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.legalities {
+    border: none;
+    background-color: rgba(255, 127, 80, .5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.legalities>label {
+    color: darkcyan;
+}
+
+h3.thank-you {
+    font-size: 10vw;
+}

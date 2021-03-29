@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my work | UtkarshMehta.me</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mywork.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="flex row space-between align-center dark">
+        <div onclick="navbarHamburger()"><i class="fa fa-bars"></i></div>
+        <h1>me, my work & i</h1>
+    </nav>
+    <div class="flex center" id="navbar-menu-items" style="display: none;">
+        <label class="close-icon" onclick="navbarHamburger()">&times;</label>
+        <ul class="w-100">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./hi.html">h(I)</a></li>
+            <details open>
+                <summary><a href="#">my work</a></summary>
+                <ul>
+                    <li><a href="./mywork/itk-applab.html">ITK - App Lab</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary><a href="#solutions">solution, my power</a></summary>
+                <ul>
+                    <li><a href="#solution1">Solution 1</a></li>
+                    <li><a href="#solution2">Solution 2</a></li>
+                </ul>
+            </details>
+            <li><a href="#work-xp">work xp</a></li>
+            <li><a href="#hobbie">hobbies</a></li>
+        </ul>
+    </div>
+    <!-- end of navbar section -->
+    <!-- start of body section -->
+    <h1 id="application-created">Applications created</h1>
+    <div class="flex row wrap">
+        <a href="./mywork/itk-applab.html" class="flex column center align-center single-app first">
+            <h2>ITK App Lab</h2>
+            <h3>Browser based mobile application creator</h3>
+        </a>
+        <div class="flex column center align-center single-app second">
+            <h2>Handover MS</h2>
+            <h3>Mgmt sys for handovers</h3>
+        </div>
+        <div class="flex column center align-center single-app others-nda">
+            <h2>others</h2>
+            <h3>few projects i can't tell</h3>
+        </div>
+    </div>
+    <h2>A constant effort at increasing this list.</h2>
+    <!-- contact me action button start here -->
+    <span id="contact-me-action-button" class="flex center align-center" onclick="contactMeDetails()">
+        <i class="fa fa-phone"></i>
+    </span>
+    <!-- end of contact me action button -->
+    <!-- contact me details section -->
+    <div id="contact-me-details" class="flex center align-center" style="display:none">
+        <label class="close-icon" onclick="contactMeDetails()">&times;</label>
+        <div class="flex column center align-center">
+            <div class="flex row align-center">
+                <label for="callme">call me</label>
+                <input name="callme" id="callme" type="text" value="+91-9819642511" class="contact-me" />
+                <div class="tooltip">
+                    <button class="copy-button" onclick="clipboardFunc('callme')"
+                        onmouseout="mouseOutClipboardFuc('callme')">
+                        <span class="tooltiptext" id="myTooltipcallme">Copy to clipboard</span>
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="flex row align-center">
+                <label for="mailme">mail me</label>
+                <input name="mailme" id="mailme" type="text" value="umtebiz@gmail.com" class="contact-me" />
+                <div class="tooltip">
+                    <button class="copy-button" onclick="clipboardFunc('mailme')"
+                        onmouseout="mouseOutClipboardFuc('mailme')">
+                        <span class="tooltiptext" id="myTooltipmailme">Copy to clipboard</span>
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact me details section -->
+    <!-- end of body section -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

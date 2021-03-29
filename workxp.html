@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtkarshMehta.me</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./workxp.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="flex row space-between align-center dark">
+        <div onclick="navbarHamburger()"><i class="fa fa-bars"></i></div>
+        <h1>history sheet</h1>
+    </nav>
+    <div class="flex center" id="navbar-menu-items" style="display: none;">
+        <label class="close-icon" onclick="navbarHamburger()">&times;</label>
+        <ul class="w-100">
+            <li><a href="./hi.html">h(I)</a></li>
+            <details>
+                <summary><a href="./mywork.html">my work</a></summary>
+                <ul>
+                    <li><a href="#project1">Project 1</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary><a href="./solutions.html">solution, my power</a></summary>
+                <ul>
+                    <li><a href="#solution1">Solution 1</a></li>
+                    <li><a href="#solution2">Solution 2</a></li>
+                </ul>
+            </details>
+            <li><a>work xp<sub>(here)</sub></a></li>
+            <li><a href="#hobbie">hobbies</a></li>
+        </ul>
+    </div>
+    <!-- end of navbar section -->
+    <!-- start of body section -->
+    <div class="container">
+        <h2 class="heading">Presently...</h2>
+        <div class="flex row wrap">
+            <div class="w-100 work">
+                <img src="assets/images/mywork/itk-applab/banner-sm.png" />
+                <div class="flex column">
+                    <h3>Eniak Edutech Pvt. Ltd.</h3>
+                    <h4>Developer</h4>
+                    <h4>Working since: 2019</h4>
+                    <p>My scope is not bound by anything. If I see/have/feel any problem. It is my responsibility
+                        to find the root cause and solve it.
+                    </p>
+                </div>
+            </div>
+            <div class="w-100 work">
+                <img src="assets/images/mywork/itk-applab/banner-sm.png" />
+                <div class="flex column">
+                    <h3>Rawky Studios</h3>
+                    <h4>Developer</h4>
+                    <h4>Working since: 2020</h4>
+                    <p>Web development and manage the browser presence of the company mobile games
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2 class="heading">...Previously</h2>
+        <div class="flex row wrap">
+            <div class="w-100 work past">
+                <h3>Team’s Solution Provider and Automation Guy</h3>
+                <h4>@ Larsen & Toubro Infotech</h4>
+                <h5>Jan 2019 - Nov 2019</h5>
+                <p>My major responsibility is to provide creative solutions to my team so that they can have a
+                    seamless and hassle-free work at their workplace. The solutions I’ve provided so far are listed
+                    <a href="./solutions.html">here</a>.
+                </p>
+            </div>
+            <div class="w-100 work past">
+                <h3>Infrastructure Cloud Support Engineer</h3>
+                <h4>@ Larsen & Toubro Infotech</h4>
+                <h5>Sept 2017 – Jan 2019</h5>
+                <p>managed the IaaS and PaaS environment of my client’s environment.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end of body section -->
+    <!-- contact me action button start here -->
+    <span id="contact-me-action-button" class="flex center align-center" onclick="contactMeDetails()">
+        <i class="fa fa-phone"></i>
+    </span>
+    <!-- end of contact me action button -->
+    <!-- contact me details section -->
+    <div id="contact-me-details" class="flex center align-center" style="display:none">
+        <label class="close-icon" onclick="contactMeDetails()">&times;</label>
+        <div class="flex column center align-center">
+            <div class="flex row align-center">
+                <label for="callme">call me</label>
+                <input name="callme" id="callme" type="text" value="+91-9819642511" class="contact-me" />
+                <div class="tooltip">
+                    <button class="copy-button" onclick="clipboardFunc('callme')"
+                        onmouseout="mouseOutClipboardFuc('callme')">
+                        <span class="tooltiptext" id="myTooltipcallme">Copy to clipboard</span>
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="flex row align-center">
+                <label for="mailme">mail me</label>
+                <input name="mailme" id="mailme" type="text" value="umtebiz@gmail.com" class="contact-me" />
+                <div class="tooltip">
+                    <button class="copy-button" onclick="clipboardFunc('mailme')"
+                        onmouseout="mouseOutClipboardFuc('mailme')">
+                        <span class="tooltiptext" id="myTooltipmailme">Copy to clipboard</span>
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact me details section -->
+    <!-- Scripts start from here -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

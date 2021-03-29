@@ -1,0 +1,37 @@
+#header {
+    color: gray;
+    text-decoration: underline;
+    padding-top: 10vh;
+    text-align: left;
+}
+
+#title {
+    position: relative;
+    font-size: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 90;
+}
+
+p, ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul>p, ol>p {
+    margin: 0;
+}
+
+label.heading {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+label.heading::after {
+    content: ':\a';
+    white-space: pre;
+}
+
+strong {
+    background-color: rgba(255, 255, 0, .2);
+}

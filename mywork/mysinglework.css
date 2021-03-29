@@ -1,0 +1,53 @@
+h3#header {
+    color: gray;
+    text-decoration: underline;
+    padding-top: 10vh;
+    text-align: left;
+}
+
+h2#title {
+    position: relative;
+    font-size: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 90;
+}
+
+div.banner {
+    height: 40vh;
+    width: 100vw;
+    margin-left: -5px;
+    background-size: contain;
+    background-position: center;
+}
+
+div#itk-applab.banner {
+    background-image: url(../assets/images/mywork/itk-applab/banner-sm.png);
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label.built {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+label.built::after {
+    content: '\a';
+    white-space: pre;
+}
+
+@media screen and (min-device-width: 468px) and (max-device-width: 768px) {
+    div#itk-applab.banner {
+        background-image: url(../assets/images/mywork/itk-applab/banner-md.png);
+    }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    div#itk-applab.banner {
+        background-image: url(../assets/images/mywork/itk-applab/banner-lg.png);
+    }
+}

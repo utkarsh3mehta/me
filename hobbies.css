@@ -1,0 +1,19 @@
+.parent {
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child>label {
+    background-color: white;
+    color: black;
+}
+
+#singing-parent {
+    background-image: url(./assets/images/mywork/itk-applab/banner-md.png);
+}
+
+#singing {
+    background-color: rgba(233, 61, 61, 0.2);
+}

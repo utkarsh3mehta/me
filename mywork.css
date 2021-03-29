@@ -1,0 +1,34 @@
+h1#application-created {
+    padding-top: 10vh;
+}
+
+.single-app {
+    width: 50%;
+    min-height: 100px;
+    height: 25vh;
+    padding: 5px;
+}
+
+.single-app>* {
+    text-align: center;
+}
+
+.first {
+    background-color: blueviolet;
+}
+
+.second {
+    background-color: brown;
+}
+
+.third {
+    background-color: burlywood;
+}
+
+.fourth {
+    background-color: chartreuse;
+}
+
+.others-nda {
+    background-color: darkslategrey;
+}

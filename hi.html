@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me, myself and I | UtkarshMehta.me</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./hi.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="flex row space-between align-center dark">
+        <div onclick="navbarHamburger()"><i class="fa fa-bars"></i></div>
+    </nav>
+    <div class="flex center" id="navbar-menu-items" style="display: none;">
+        <label class="close-icon" onclick="navbarHamburger()">&times;</label>
+        <ul class="w-100">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./hi.html">h(I)</a></li>
+            <details>
+                <summary><a href="./mywork.html">my work</a></summary>
+                <ul>
+                    <li><a href="#project1">Project 1</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                </ul>
+            </details>
+            <details open>
+                <summary><a href="#solutions">solution, my power</a></summary>
+                <ul>
+                    <li><a href="#solution1">Solution 1</a></li>
+                    <li><a href="#solution2">Solution 2</a></li>
+                </ul>
+            </details>
+            <li><a href="#work-xp">work xp</a></li>
+            <li><a href="#hobbie">hobbies</a></li>
+        </ul>
+    </div>
+    <!-- end of navbar section -->
+    <!-- main body section -->
+    <div class="container">
+        <h1 id="hi">Hi</h1>
+        <h2 id="subtitle">An introduction about myself. My introduction.</h2>
+        <p>Utkarsh has been working since 2016, when he was still doing his graduation. After completing his graduation,
+            he started working in Larsen & Toubro as an operation associate. His job there was about managing the cloud
+            environment of the clients. He has always been a people’s person and someone who gets bored really quickly
+            with repetitive tasks. With the help of his managers he started automating processes and soon had automated
+            major team tasks. All in all, he takes pride in the fact that his automation saves 1000hr every month for
+            his team. With this feat, he was moved up to a single person team of automations and given a full-time work
+            to simplify and solve problems.</p>
+        <p>This helped him meet with people from different fields and expertise who wanted automations and other
+            solutions for themselves. This led to his passion for people and also got him the nick for solving problems
+            and making repetitive and mundane tasks obsolete.</p>
+
+        <p>Utkarsh always had an interest in teaching. He teaches his students with a different, more casual approach.
+            Considering his students equal to himself and teaching them like friends. During his time in L&T, he tutored
+            in a class called ‘Semicolon’ created by a friend who now works at Google. At Semicolon, Utkarsh used a
+            project-based learning approach to teach Python and Flask.</p>
+        <p>During all this time, Utkarsh realized that his degree didn’t have much use anywhere. Nothing that was
+            taught to him had been useful. What was being taught to him and what was needed were very different. That
+            led him to work in the direction of improving this experience for students to come.</p>
+        <p>That’s when he met with people from Eniak and found their idea interesting and personal. With his technical,
+            people and project management skills, Utkarsh now helps with developing applications, solutions and cloud
+            for Eniak. He also helps in project management for few major applications. Along with that, he also takes
+            care of interviewing new developers or people of other fields.</p>
+        <p>With Eniak, Utkarsh wishes to move the syllabus to more subjective fields, like arts and human sciences that
+            allows people to improve their way of expression and built better creators, artists and what not.</p>
+            <div class="legalities">
+                <label>I solemely swear this is the best version of me</label>
+                <input type="checkbox" checked />
+                <!-- TODO:update legalities -->
+            </div>
+            <h3 class="thank-you">Thank you</h3>
+    </div>
+    <!-- end of body section -->
+    <!-- Scripts start from here -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
