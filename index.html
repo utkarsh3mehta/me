@@ -13,7 +13,28 @@
 <body>
     <!-- navbar section -->
     <nav class="flex row space-between align-center">
-        <div onclick="navbarHamburger()"><i class="fa fa-bars"></i></div>
+        <i class="fa fa-bars" onclick="navbarHamburger()"></i>
+        <div class="screen-menu-items w-100">
+            <ul class="screen-menu-items w-100">
+                <li><a href="./hi.html">h(I)</a></li>
+                <details>
+                    <summary><a href="./mywork.html">my work</a></summary>
+                    <ul>
+                        <li><a href="./mywork/itk-applab.html">ITK - App Lab</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary><a href="./solutions.html">solution, my power</a></summary>
+                    <ul>
+                        <li><a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a></li>
+                    </ul>
+                </details>
+                <li><a href="./workxp.html">work xp</a></li>
+                <li><a href="./hobbies.html">hobbies</a></li>
+                <!-- <li><a href="#thoughts">thoughts</a></li> -->
+                <!-- TODO: add thoughts section for blogging? -->
+            </ul>
+        </div>
         <h1>utkarshmehta.me</h1>
     </nav>
     <div class="flex center" id="navbar-menu-items" style="display: none;">

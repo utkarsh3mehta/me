@@ -62,8 +62,12 @@ Global CSS for utkarshmehta.me
 }
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
+}
+
+a[href]:hover {
+    text-decoration: underline;
 }
 
 img.circle {
@@ -78,15 +82,21 @@ nav {
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 80; /*navbar*/
+    z-index: 80;
+    /*navbar*/
 }
 
 nav.dark {
     color: black;
 }
 
-nav>div.screen-menu-items {
+div.screen-menu-items {
     display: none;
+}
+
+ul.screen-menu-items {
+    list-style: none;
+    display: inline;
 }
 
 nav ul, div#navbar-menu-items ul {
@@ -100,7 +110,8 @@ div#navbar-menu-items {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 100; /*nav menu items*/
+    z-index: 100;
+    /*nav menu items*/
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
     padding-top: 50px;
@@ -152,7 +163,8 @@ span#contact-me-action-button {
     height: 60px;
     background: blue;
     border-radius: 50%;
-    z-index: 50; /*contact button*/
+    z-index: 50;
+    /*contact button*/
 }
 
 span#contact-me-action-button>i {
@@ -165,7 +177,8 @@ div#contact-me-details {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 60; /*contact details*/
+    z-index: 60;
+    /*contact details*/
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
 }
@@ -189,14 +202,6 @@ div#contact-me-details input.contact-me {
     background-color: gray;
     margin-left: 15px;
 }
-
-@media screen and (min-width: 600px) {
-    div#navbar-menu-items>ul>*:hover {
-        text-decoration: underline;
-    }
-}
-
-/* w3school tooltip feature */
 
 button.copy-button {
     padding: 15px;
@@ -238,4 +243,13 @@ button.copy-button {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    nav>i {
+        display: none !important;
+    }
+    div#navbar-menu-items {
+        right: 65%;
+    }
 }
