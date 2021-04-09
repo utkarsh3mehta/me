@@ -6,11 +6,9 @@ h3#header {
 }
 
 h2#title {
-    position: relative;
     font-size: 10vw;
     padding-top: 10px;
     padding-bottom: 10px;
-    z-index: 90;
 }
 
 div.banner {
