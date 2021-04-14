@@ -13,6 +13,10 @@ h1#application-created {
     text-align: center;
 }
 
+.light {
+    color: lightgray;
+}
+
 .first {
     background-color: blueviolet;
 }
@@ -31,4 +35,22 @@ h1#application-created {
 
 .others-nda {
     background-color: darkslategrey;
+}
+
+@media only screen and (min-device-width: 768px) {
+    .single-app {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .single-app {
+        width: 20%;
+        margin: 0 20px;
+        box-shadow: 1px 1px 5px 3px lightgray;
+        border-radius: 5px;
+    }
+    .single-app:hover {
+        box-shadow: none;
+    }
 }
