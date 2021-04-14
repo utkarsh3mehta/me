@@ -42,7 +42,7 @@ h3.thank-you {
     h1#hi {
         font-size: 30vw;
     }
-    .container>p, .legalities>label {
+    .legalities>label {
         font-size: 2vw;
     }
 }
@@ -51,7 +51,7 @@ h3.thank-you {
     h1#hi {
         font-size: 20vw;
     }
-    .container>p, .legalities>label {
+    .legalities>label {
         font-size: 1.2vw;
     }
     h3.thank-you {

@@ -268,6 +268,15 @@ button.copy-button {
     opacity: 1;
 }
 
+@media only screen and (min-device-width: 768px) {
+    p {
+        font-size: 2vw;
+    }
+    .w-md-50 {
+        width: 50%;
+    }
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     div#navbar-menu-items {
         right: 65%;
@@ -284,11 +293,17 @@ button.copy-button {
 }
 
 @media screen and (min-device-width: 1200px) {
+    p {
+        font-size: 1.2vw;
+    }
     nav>i {
         display: none !important;
     }
     nav>div.screen-menu-items {
         display: flex
+    }
+    .w-lg-25 {
+        width: 25%;
     }
     .w-lg-50 {
         width: 50%;
