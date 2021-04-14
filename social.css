@@ -33,12 +33,12 @@
 
 #google {
     color: white;
-    background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54);
+    background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54, #4885ed);
 }
 
 #instagram {
     color: white;
-    background: conic-gradient(#8a3ab9, #e95950, #fbad50, #4c68d7);
+    background: conic-gradient(#8a3ab9, #e95950, #fbad50, #4c68d7, #8a3ab9);
 }
 
 #strava {
@@ -48,7 +48,7 @@
 
 #microsoft {
     color: white;
-    background: conic-gradient(#f65314, #7cbb00, #ffbb00, #00a1f1);
+    background: conic-gradient(#8a3ab9, #7cbb00, #ffbb00, #00a1f1, #8a3ab9);
 }
 
 #skype {
@@ -111,11 +111,11 @@
     }
     #google:hover {
         color: white;
-        background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54);
+        background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54, #4885ed);
     }
     #instagram:hover {
         color: white;
-        background: conic-gradient(#8a3ab9, #e95950, #fbad50, #4c68d7);
+        background: conic-gradient(#8a3ab9, #e95950, #fbad50, #4c68d7, #8a3ab9);
     }
     #strava:hover {
         color: white;
@@ -123,7 +123,7 @@
     }
     #microsoft:hover {
         color: white;
-        background: conic-gradient(#f65314, #7cbb00, #ffbb00, #00a1f1);
+        background: conic-gradient(#f65314, #7cbb00, #ffbb00, #00a1f1, #f65314);
     }
     #skype:hover {
         color: white;
