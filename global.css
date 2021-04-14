@@ -61,6 +61,14 @@ Global CSS for utkarshmehta.me
     height: 100%;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -92,11 +100,6 @@ nav.dark {
 
 div.screen-menu-items {
     display: none;
-}
-
-ul.screen-menu-items {
-    list-style: none;
-    display: inline;
 }
 
 nav ul, div#navbar-menu-items ul {
@@ -141,6 +144,30 @@ div#navbar-menu-items sub {
     font-size: 15px;
 }
 
+div.dropdown-content {
+    padding: 5px 10px;
+    background-color: wheat;
+    color: black;
+    border-radius: 10px;
+    display: none;
+    top: 15px;
+    right: 0;
+    z-index: 90;
+    min-width: 160px;
+}
+
+div.dropdown-content>a {
+    margin-bottom: 5px;
+}
+
+div#dropdown-mywork:hover div#dropdown-content-mywork {
+    display: flex;
+}
+
+div#dropdown-solution:hover div#dropdown-content-solution {
+    display: flex;
+}
+
 label.close-icon {
     position: absolute;
     top: 5px;
@@ -148,10 +175,6 @@ label.close-icon {
     font-size: 40px;
     letter-spacing: 10px;
     color: white;
-}
-
-.relative {
-    position: relative;
 }
 
 span#contact-me-action-button {
@@ -245,11 +268,32 @@ button.copy-button {
     opacity: 1;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    div#navbar-menu-items {
+        right: 65%;
+    }
+    i.fa.fa-bars {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    i.fa.fa-bars {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-device-width: 1200px) {
     nav>i {
         display: none !important;
     }
-    div#navbar-menu-items {
-        right: 65%;
+    nav>div.screen-menu-items {
+        display: flex
+    }
+    .w-lg-50 {
+        width: 50%;
+    }
+    nav.distinct {
+        border-bottom: 1px solid gray;
     }
 }

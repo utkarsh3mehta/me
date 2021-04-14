@@ -22,14 +22,20 @@ div#hi {
 div#itsme {
     background-color: blueviolet;
     color: black;
-    font-size: 40vw;
+    font-size: 30vw;
 }
 
-@media screen and (min-width: 600px) {
-    nav>div.screen-menu-items {
-        display: flex
-    }
+@media screen and (min-device-width: 1200px) {
     div.bodySection {
         flex-direction: row;
+    }
+    div.bodySection>div {
+        height: 100vh;
+    }
+    div#hi {
+        font-size: 15vw;
+    }
+    div#itsme {
+        font-size: 15vw;
     }
 }

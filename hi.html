@@ -12,8 +12,29 @@
 
 <body>
     <!-- navbar section -->
-    <nav class="flex row space-between align-center dark">
-        <div onclick="navbarHamburger()"><i class="fa fa-bars"></i></div>
+    <nav class="flex row space-between align-center dark distinct">
+        <i class="fa fa-bars" onclick="navbarHamburger()"></i>
+        <div class="screen-menu-items w-100 w-lg-50 space-between">
+            <a href="./index.html">home</a>
+            <div id="dropdown-mywork" class="relative">
+                <a id="mywork" href="./mywork.html">my work</a>
+                <div id="dropdown-content-mywork" class="column dropdown-content absolute">
+                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+                </div>
+            </div>
+            <div id="dropdown-solution" class="relative">
+                <a id="solution" href="./solutions.html">solution, my power</a>
+                <div id="dropdown-content-solution" class="column dropdown-content absolute">
+                    <a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a>
+                    <a href="./solutions/invoke-azure.html">handover MS</a>
+                </div>
+            </div>
+            <a href="./workxp.html">work xp</a>
+            <a href="./hobbies.html">hobbies</a>
+            <!-- <li><a href="#thoughts">thoughts</a></li> -->
+            <!-- TODO: add thoughts section for blogging? -->
+        </div>
     </nav>
     <div class="flex center" id="navbar-menu-items" style="display: none;">
         <label class="close-icon" onclick="navbarHamburger()">&times;</label>
@@ -65,12 +86,12 @@
             care of interviewing new developers or people of other fields.</p>
         <p>With Eniak, Utkarsh wishes to move the syllabus to more subjective fields, like arts and human sciences that
             allows people to improve their way of expression and built better creators, artists and what not.</p>
-            <div class="legalities">
-                <label>I solemely swear this is the best version of me</label>
-                <input type="checkbox" checked />
-                <!-- TODO:update legalities -->
-            </div>
-            <h3 class="thank-you">Thank you</h3>
+        <div class="legalities">
+            <label>I solemely swear this is the best version of me</label>
+            <input type="checkbox" checked />
+            <!-- TODO:update legalities -->
+        </div>
+        <h3 class="thank-you">Thank you</h3>
     </div>
     <!-- end of body section -->
     <!-- Scripts start from here -->

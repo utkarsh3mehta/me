@@ -14,33 +14,32 @@
     <!-- navbar section -->
     <nav class="flex row space-between align-center">
         <i class="fa fa-bars" onclick="navbarHamburger()"></i>
-        <div class="screen-menu-items w-100">
-            <ul class="screen-menu-items w-100">
-                <li><a href="./hi.html">h(I)</a></li>
-                <details>
-                    <summary><a href="./mywork.html">my work</a></summary>
-                    <ul>
-                        <li><a href="./mywork/itk-applab.html">ITK - App Lab</a></li>
-                    </ul>
-                </details>
-                <details>
-                    <summary><a href="./solutions.html">solution, my power</a></summary>
-                    <ul>
-                        <li><a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a></li>
-                    </ul>
-                </details>
-                <li><a href="./workxp.html">work xp</a></li>
-                <li><a href="./hobbies.html">hobbies</a></li>
-                <!-- <li><a href="#thoughts">thoughts</a></li> -->
-                <!-- TODO: add thoughts section for blogging? -->
-            </ul>
+        <div class="screen-menu-items w-100 w-lg-50 space-between">
+            <a href="./hi.html">h(I)</a>
+            <div id="dropdown-mywork" class="relative">
+                <a id="mywork" href="./mywork.html">my work</a>
+                <div id="dropdown-content-mywork" class="column dropdown-content absolute">
+                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+                </div>
+            </div>
+            <div id="dropdown-solution" class="relative">
+                <a id="solution" href="./solutions.html">solution, my power</a>
+                <div id="dropdown-content-solution" class="column dropdown-content absolute">
+                    <a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a>
+                    <a href="./solutions/invoke-azure.html">handover MS</a>
+                </div>
+            </div>
+            <a href="./workxp.html">work xp</a>
+            <a href="./hobbies.html">hobbies</a>
+            <!-- <li><a href="#thoughts">thoughts</a></li> -->
+            <!-- TODO: add thoughts section for blogging? -->
         </div>
         <h1>utkarshmehta.me</h1>
     </nav>
     <div class="flex center" id="navbar-menu-items" style="display: none;">
         <label class="close-icon" onclick="navbarHamburger()">&times;</label>
         <ul class="w-100">
-            <li><a href="./index.html">home</a></li>
             <li><a href="./hi.html">h(I)</a></li>
             <details>
                 <summary><a href="./mywork.html">my work</a></summary>
@@ -64,7 +63,7 @@
     <!-- main body section -->
     <div class="flex column bodySection">
         <div class="flex center align-center w-100" id="hi">Hey</div>
-        <div class="flex center align-center w-100" id="itsme">lo</div>
+        <div class="flex center align-center w-100" id="itsme">there</div>
         <!-- contact me action button start here -->
         <span id="contact-me-action-button" class="flex center align-center" onclick="contactMeDetails()">
             <i class="fa fa-phone"></i>
@@ -99,6 +98,7 @@
             </div>
         </div>
     </div>
+    <!-- TODO: Add footer -->
     <!-- end of contact me details section -->
     <!-- end of body section -->
     <!-- Scripts start from here -->
