@@ -13,7 +13,28 @@
 <body>
     <!-- navbar section -->
     <nav class="flex row space-between align-center dark">
-        <div onclick="navbarHamburger()"><i class="fa fa-bars"></i></div>
+        <i class="fa fa-bars" onclick="navbarHamburger()"></i>
+        <div class="screen-menu-items w-100 w-lg-50 space-between">
+            <a href="./index.html">home</a>
+            <a href="./hi.html">h(I)</a>
+            <div id="dropdown-mywork" class="relative">
+                <a id="mywork" href="./mywork.html">my work</a>
+                <div id="dropdown-content-mywork" class="column dropdown-content absolute">
+                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+                </div>
+            </div>
+            <div id="dropdown-solution" class="relative">
+                <a id="solution" href="./solutions.html">solution, my power</a>
+                <div id="dropdown-content-solution" class="column dropdown-content absolute">
+                    <a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a>
+                    <a href="#">handover MS</a>
+                </div>
+            </div>
+            <a href="./workxp.html">work xp</a>
+            <a href="./hobbies.html">hobbies</a>
+            <!-- <li><a href="#thoughts">thoughts</a></li> -->
+            <!-- TODO: add thoughts section for blogging? -->
+        </div>
         <h1>hobbies</h1>
     </nav>
     <div class="flex center" id="navbar-menu-items" style="display: none;">
