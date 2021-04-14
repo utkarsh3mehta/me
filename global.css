@@ -190,8 +190,18 @@ span#contact-me-action-button {
     /*contact button*/
 }
 
+span#contact-me-action-button.index {
+    padding: 0 20px;
+    width: auto;
+    border-radius: 30px;
+}
+
 span#contact-me-action-button>i {
     font-size: 1.5em;
+}
+
+span#contact-me-action-button.index>i {
+    margin-right: 10px;
 }
 
 div#contact-me-details {
