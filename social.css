@@ -1,0 +1,148 @@
+#title {
+    font-size: 10vw;
+}
+
+#subtitle {
+    font-size: 5vw;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.socials {
+    padding-top: 10vh;
+}
+
+.social {
+    /* border: 1px solid gray; */
+    height: 25vh;
+    /* margin: 5px 0; */
+}
+
+.social:hover {
+    text-decoration: none !important;
+}
+
+.social>i {
+    font-size: 50px;
+}
+
+#snapchat {
+    color: white;
+    background-color: #FFFC00;
+}
+
+#google {
+    color: white;
+    background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54);
+}
+
+#instagram {
+    color: white;
+    background: conic-gradient(#8a3ab9, #e95950, #fbad50, #4c68d7);
+}
+
+#strava {
+    color: white;
+    background-color: #FC4C02;
+}
+
+#microsoft {
+    color: white;
+    background: conic-gradient(#f65314, #7cbb00, #ffbb00, #00a1f1);
+}
+
+#skype {
+    color: white;
+    background-color: #00aff0;
+}
+
+#reddit {
+    color: white;
+    background-color: #FF5700;
+}
+
+#steam {
+    color: white;
+    background: linear-gradient(#171a21, #2a475e, #66c0f4)
+}
+
+#youtube {
+    color: white;
+    background-color: #FF0000;
+}
+
+#medium {
+    color: white;
+    background-color: black;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #title {
+        font-size: 8vw;
+    }
+    #subtitle {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    #title {
+        font-size: 7vw;
+    }
+    #subtitle {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) {
+    #title {
+        font-size: 5vw;
+    }
+    #subtitle {
+        font-size: 2vw;
+    }
+    #snapchat, #google, #instagram, #strava, #microsoft, #skype, #reddit, #steam, #youtube, #medium {
+        color: black;
+        background: white;
+    }
+    #snapchat:hover {
+        color: white;
+        background-color: #FFFC00;
+    }
+    #google:hover {
+        color: white;
+        background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54);
+    }
+    #instagram:hover {
+        color: white;
+        background: conic-gradient(#8a3ab9, #e95950, #fbad50, #4c68d7);
+    }
+    #strava:hover {
+        color: white;
+        background-color: #FC4C02;
+    }
+    #microsoft:hover {
+        color: white;
+        background: conic-gradient(#f65314, #7cbb00, #ffbb00, #00a1f1);
+    }
+    #skype:hover {
+        color: white;
+        background-color: #00aff0;
+    }
+    #reddit:hover {
+        color: white;
+        background-color: #FF5700;
+    }
+    #steam:hover {
+        color: white;
+        background: linear-gradient(#171a21, #2a475e, #66c0f4)
+    }
+    #youtube:hover {
+        color: white;
+        background-color: #FF0000;
+    }
+    #medium:hover {
+        color: white;
+        background-color: black;
+    }
+}
