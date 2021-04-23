@@ -1,5 +1,6 @@
 h1#application-created {
     padding-top: 10vh;
+    margin-right: 5px;
 }
 
 .single-app {
@@ -46,7 +47,7 @@ h1#application-created {
 @media only screen and (min-device-width: 1200px) {
     .single-app {
         width: 20%;
-        margin: 0 20px;
+        margin: 5px 20px;
         box-shadow: 1px 1px 5px 3px lightgray;
         border-radius: 5px;
     }
