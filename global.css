@@ -62,12 +62,20 @@ Global CSS for utkarshmehta.me
     flex-wrap: wrap;
 }
 
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
 .h-25vh {
     height: 25vh;
 }
 
 .w-100 {
     width: 100%;
+}
+
+.w-80 {
+    width: 80%;
 }
 
 .w-50 {
@@ -266,10 +274,12 @@ div#contact-me-details input.contact-me {
 }
 
 button.copy-button {
-    padding: 15px;
+    padding: 16px;
     border: none;
     background-color: #F2EDD7;
     color: #755139;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .tooltip {
@@ -393,6 +403,9 @@ div#pre-footer-spacing {
     }
     .w-lg-25 {
         width: 25%;
+    }
+    .w-lg-33 {
+        width: 33.33%;
     }
     .w-lg-50 {
         width: 50%;

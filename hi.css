@@ -5,14 +5,159 @@ CSS for utkarshmehta.me/hi page
 
 /* Mobile first design */
 
-h1#hi {
-    font-size: 40vw;
-    font-weight: 100;
+.error {
+    color: #990011;
 }
 
-.container>p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.hi {
+    flex-direction: column;
+    margin-bottom: 51px;
+}
+
+.my-img {
+    height: 40vh;
+    background-image: url(https://dsm01pap002files.storage.live.com/y4m2AnpKAEAG1SwOc6Sgy0Q7sZRMGETIcj6RSAElH_qSOx14tFZBDN1gmA2FfKrO0eH1ri2zr6evIaRV88LaDIHnCIJ_iqlpKZo-zLpB_Ku6hMxaB9SoBIIOfXE9z1mzAspaCK72cLKdhPpZzNYPteHZivd2xGvlghyiAdmyW5jsfsxXZmnupv0i9a2XPQIZQM7?width=1360&height=2048&cropmode=none);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.name {
+    background-color: #606060;
+    color: #D6ED17;
+}
+
+.name, .content, .contact {
+    padding: 5px;
+}
+
+.name>h4 {
+    font-size: 6vw;
+    text-align: left;
+    color: #97BC62;
+}
+
+.name>h1 {
+    font-size: 15vw;
+    text-align: left;
+    margin: 20px 0;
+}
+
+div.transition-name-content {
+    background: linear-gradient(#606060, #A2A2A1);
+    min-height: 100px;
+}
+
+.transition-name-content>h2 {
+    font-size: 7vw;
+    color: #0b1c2f;
+}
+
+.content {
+    background-color: #A2A2A1;
+    color: #195190;
+}
+
+.content>p {
+    margin: 20px 0;
+}
+
+div.transition-content-contact {
+    min-height: 50px;
+    background: linear-gradient(#A2A2A1, #FCF6F5)
+}
+
+.contact {
+    background-color: #FCF6F5;
+}
+
+.contact>h2 {
+    color: #1C1C1B;
+}
+
+div.mobile {
+    padding: 2vh 4vw;
+}
+
+div.mobile>input.contact-me {
+    padding: 15px;
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #bdbdbd;
+    margin-left: 15px;
+    cursor: not-allowed;
+}
+
+form.mail-form {
+    margin: 20px 0;
+}
+
+.mail-form>input, .mail-form>textarea {
+    padding: 20px 20px 5px 20px;
+    background-color: #FCF6F5;
+    color: #2BAE66;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #990011;
+    font-size: 17px;
+    text-align: left;
+}
+
+.mail-form>input:focus, .mail-form>textarea:focus {
+    background-color: #CBCE91;
+    color: #76528B;
+    border-bottom: 1px solid #333D79;
+}
+
+.mail-form>button[type="submit"] {
+    padding: 20px 40px;
+    border: none;
+    background-color: #FFD662;
+    color: #00539C;
+}
+
+.mail-form>button[type="submit"]:active {
+    background-color: #8a7334;
+}
+
+.transition-contact-gallery {
+    min-height: 50px;
+    background: linear-gradient(#FCF6F5, #603F83)
+}
+
+.transition-contact-gallery>h3 {
+    color: #F1F4FF
+}
+
+.gallery-container {
+    background-color: #603F83;
+    color: #C7D3D4;
+    padding: 0 20px;
+}
+
+.gallery-container>h2 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.gallery {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.image {
+    height: 30vh;
+    width: auto;
+    margin: 0 10px;
+    border: 5px solid rgb(181, 130, 236);
+    border-radius: 30px;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .legalities {
@@ -28,33 +173,57 @@ h1#hi {
     color: darkcyan;
 }
 
-h3.thank-you {
-    font-size: 10vw;
-}
-
 @media only screen and (min-device-width: 768px) {
-    h2#subtitle {
-        font-size: 3vw;
+    .my-img {
+        height: 50vh;
+        background-size: cover;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    h1#hi {
-        font-size: 30vw;
+    .name>h4 {
+        font-size: 5vw;
+    }
+    .name>h1 {
+        font-size: 10vw;
+    }
+    .transition-name-content {
+        justify-content: flex-end;
+    }
+    .transition-name-content>h2 {
+        font-size: 5.3vw;
+    }
+    .contact>h2 {
+        font-size: 4vw;
     }
     .legalities>label {
         font-size: 2vw;
     }
 }
 
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {}
+
 @media only screen and (min-device-width: 1200px) {
-    h1#hi {
-        font-size: 20vw;
+    .hi {
+        flex-direction: row;
+    }
+    .my-img {
+        height: 100vh;
+        background-size: 50% auto;
+        background-position: left;
+        position: sticky;
+        top: 0;
+    }
+    .name>h4 {
+        font-size: 2vw;
+    }
+    .name>h1 {
+        font-size: 6vw;
+    }
+    .transition-name-content>h2 {
+        font-size: 3vw;
     }
     .legalities>label {
         font-size: 1.2vw;
-    }
-    h3.thank-you {
-        font-size: 5vw;
     }
 }
