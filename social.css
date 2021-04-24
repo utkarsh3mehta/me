@@ -15,10 +15,10 @@
     font-size: 50px;
 }
 
-#snapchat {
+/* #snapchat {
     color: white;
     background-color: #FFFC00;
-}
+} */
 
 #google {
     color: white;
@@ -91,14 +91,14 @@
     #subtitle {
         font-size: 2vw;
     }
-    #snapchat, #google, #instagram, #strava, #microsoft, #skype, #reddit, #steam, #youtube, #medium, #stack-overflow, #spotify {
+    #google, #instagram, #strava, #microsoft, #skype, #reddit, #steam, #youtube, #medium, #stack-overflow, #spotify {
         color: black;
         background: white;
     }
-    #snapchat:hover {
+    /* #snapchat:hover {
         color: white;
         background-color: #FFFC00;
-    }
+    } */
     #google:hover {
         color: white;
         background: conic-gradient(#4885ed, #db3236, #f4c20d, #3cba54, #4885ed);
