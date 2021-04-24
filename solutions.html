@@ -15,7 +15,6 @@
     <nav class="flex row space-between align-center dark">
         <i class="fa fa-bars" onclick="navbarHamburger()"></i>
         <div class="screen-menu-items w-100 w-lg-50 space-between">
-            <a href="./index.html">home</a>
             <a href="./hi.html">h(I)</a>
             <div class="dropdown relative">
                 <a href="./mywork.html">my work</a>
@@ -31,8 +30,14 @@
             </div>
             <a href="./knowledge.html">gained knowledge</a>
             <a href="./workxp.html">work xp</a>
-            <a href="./hobbies.html">hobbies</a>
-            <a href="./social.html">socials</a>
+            <div class="dropdown relative">
+                <a><i class="fa fa-ellipsis-h"></i></a>
+                <div class="column dropdown-content absolute">
+                    <a href="./index.html">home</a>
+                    <a href="./hobbies.html">hobbies</a>
+                    <a href="./social.html">socials</a>
+                </div>
+            </div>
         </div>
         <h1>my power, solutions</h1>
     </nav>
@@ -63,19 +68,19 @@
     <!-- start of body section -->
     <h1 id="application-created">Solutions provided</h1>
     <div class="flex row wrap">
-        <a href="./solutions/invoke-azure.html" class="flex column center align-center single-app first light">
+        <a href="./solutions/invoke-azure.html" class="flex column center align-center single-app h-25vh first light">
             <h2>Invoke-AzureRmVMCommand</h2>
             <h3>Get data from inside 700 VMs</h3>
         </a>
-        <a href="#" class="flex column center align-center single-app second light">
+        <a href="#" class="flex column center align-center single-app h-25vh second light">
             <h2>Handover MS</h2>
             <h3>Mgmt sys for handovers</h3>
         </a>
-        <a href="#" class="flex column center align-center single-app third">
+        <a href="#" class="flex column center align-center single-app h-25vh third">
             <h2>SSPR</h2>
             <h3>Self signing password reset</h3>
         </a>
-        <a href="#" class="flex column center align-center single-app fourth">
+        <a href="#" class="flex column center align-center single-app h-25vh fourth">
             <h2>Send notifications</h2>
             <h3>Send notifications to 100s of clients</h3>
         </a>
