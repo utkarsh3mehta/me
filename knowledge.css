@@ -1,3 +1,63 @@
 .knowledge {
     padding-top: 10vh;
 }
+
+#subtitle {
+    font-size: 5vw;
+}
+
+h3.header-division {
+    font-size: 7vw;
+    margin: 10px 0;
+}
+
+.knowledge-single>i {
+    font-size: 70px;
+}
+
+.knowledge-cover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.knowledge-cover>span {
+    margin-top: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.knowledge-cover>span.name {
+    font-size: 1.2em;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #subtitle {
+        font-size: 4vw;
+    }
+    h3.header-division {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    #subtitle {
+        font-size: 3vw;
+    }
+    h3.header-division {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-device-width: 1200px) {
+    #subtitle {
+        font-size: 2vw;
+    }
+    h3.header-division {
+        font-size: 3vw;
+    }
+    .knowledge-single:hover .knowledge-cover {
+        display: flex;
+    }
+    .knowledge-cover {
+        display: none;
+    }
+}
