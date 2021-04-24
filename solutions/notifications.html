@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITK - App Lab | UtkarshMehta.me</title>
+    <title>
+        auto-notification | UtkarshMehta.me</title>
     <link rel="stylesheet" href="../global.css" />
     <link rel="stylesheet" href="../singlePages.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -19,18 +20,18 @@
             <div class="dropdown relative">
                 <a href="../mywork.html">my work</a>
                 <div class="column dropdown-content absolute">
-                    <a>ITK - App Lab</a>
-                    <a href="./handoverms.html">Handover MS</a>
-                    <a href="./90min.html">90 min app</a>
+                    <a href="../mywork/itk-applab.html">ITK - App Lab</a>
+                    <a href="../mywork/handoverms.html">Handover MS</a>
+                    <a href="../mywork/90min.html">90 min app</a>
                 </div>
             </div>
             <div class="dropdown relative">
                 <a href="../solutions.html">solution, my power</a>
                 <div class="column dropdown-content absolute">
-                    <a href="../solutions/invoke-azure.html">invoke-azurermvmcommand</a>
-                    <a href="../solutions/sspr.html">SSPR</a>
-                    <a href="../solutions/handoverms.html">Handover MS</a>
-                    <a href="../solutions/notifications.html">auto-notify</a>
+                    <a href="./invoke-azure.html">invoke-azurermvmcommand</a>
+                    <a href="./sspr.html">SSPR</a>
+                    <a href="./handoverms.html">Handover MS</a>
+                    <a>auto-notify</a>
                 </div>
             </div>
             <a href="../knowledge.html">gained knowledge</a>
@@ -44,28 +45,28 @@
                 </div>
             </div>
         </div>
-        <h1>itk-al</h1>
+        <h1>auto-notification</h1>
     </nav>
     <div class="flex center" id="navbar-menu-items" style="display: none;">
         <label class="close-icon" onclick="navbarHamburger()">&times;</label>
         <ul class="w-100">
             <li><a href="../index.html">home</a></li>
             <li><a href="../hi.html">h(I)</a></li>
-            <details open>
+            <details>
                 <summary><a href="../mywork.html">my work</a></summary>
                 <ul>
-                    <li><a>ITK - App Lab<sub>(here)</sub></a></li>
-                    <li><a href="./handoverms.html">Handover MS</a></li>
-                    <li><a href="./90min.html">90 min app</a></li>
+                    <li><a href="../mywork/itk-applab.html">ITK - App Lab</a></li>
+                    <li><a href="../mywork/handoverms.html">Handover MS</a></li>
+                    <li><a href="../mywork/90min.html">90 min app</a></li>
                 </ul>
             </details>
-            <details>
+            <details open>
                 <summary><a href="../solutions.html">solution, my power</a></summary>
                 <ul>
-                    <li><a href="../solutions/invoke-azure.html">invoke-azurermvmcommand</a></li>
-                    <li><a href="../solutions/sspr.html">sspr</a></li>
-                    <li><a href="../solutions/handoverms.html">handover ms</a></li>
-                    <li><a href="../solutions/notifications.html">auto-notify</a></li>
+                    <li><a href="./invoke-azure.html">invoke-azurermvmcommand</a></li>
+                    <li><a href="./sspr.html">sspr</a></li>
+                    <li><a href="./handoverms.html">handover ms</a></li>
+                    <li><a>auto-notify<sub>(here)</sub></a></li>
                 </ul>
             </details>
             <li><a href="../knowledge.html">gained knowledge</a></li>
@@ -77,19 +78,22 @@
     <!-- end of navbar section -->
     <!-- start of body section -->
     <div class="container">
-        <h3 id="header">oh! this work of mine,</h3>
-        <h2 id="title">ITK - App Lab</h2>
-        <div class="banner" id="itk-applab"></div>
-        <h3 id="subtitle">A browser based mobile application creator</h3>
-        <p>A web application that helps users create mobile applications with drag and drop interface and
-            blocks for programming backend logic.</p>
-        <p>Abstracting the process of mobile application designing and programming
-            so that the users can enjoy the process of mobile application development. The niche user
-            target is students of class 6th and above.</p>
-        <p><label class="heading">Build with:</label> Front-end with React JS, HTML, CSS, JS. Back-end with NodeJS. The
-            template
-            engine responsible for creating the react native code files and then the APK is also in NodeJS.</p>
-        <p><label class="heading">Built for:</label>Eniak Edutech Pvt. Ltd</p>
+        <h3 id="header">oh! this solution of mine,</h3>
+        <h2 id="title">Auto Notifications</h2>
+        <p><label class="heading">Problem statement</label>Send notifications to owners and clients before server and
+            application patching every weekend</p>
+        <ol>
+            <p><label class="heading">Solution</label></p>
+            <li>My team lead and myself created a PowerShell script that injects a formatted CSV</li>
+            <li>The CSV has the recipient list, scheduled dates and other necessary information</li>
+            <li>The script simply asks the list of domains for which you would like to send the notification</li>
+        </ol>
+        <p><label class="heading">How things happened?</label>The team creates a ticket in SharePoint for themselves for
+            around 17 domains. Copies
+            the content from the ticket, pastes it to mail and sends it to the recipients one by one.
+        </p>
+        <p><label class="heading">Built for</label>Larsen & Toubro Infotech.
+        </p>
     </div>
     <!-- start of footer section -->
     <div class="footer flex center fixed w-100">

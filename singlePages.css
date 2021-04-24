@@ -14,13 +14,21 @@ div.banner {
     height: 40vh;
     margin-left: -5px;
     margin-right: -5px;
-    margin-left: -5px;
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-div#itk-applab.banner {
-    background-image: url(../assets/images/mywork/itk-applab/banner-sm.png);
+div#itk-applab {
+    background-image: url(./assets/images/mywork/itk-applab/banner-sm.png);
+}
+
+div#ninetymin {
+    background-image: url(./assets/images/mywork/90min/banner-sm.png);
+}
+
+div#handoverms {
+    background-image: url(./assets/images/mywork/handoverms/banner-sm.png);
 }
 
 p, ul {
@@ -46,12 +54,6 @@ label.heading::after {
     white-space: pre;
 }
 
-@media screen and (min-device-width: 468px) and (max-device-width: 768px) {
-    div#itk-applab.banner {
-        background-image: url(../assets/images/mywork/itk-applab/banner-md.png);
-    }
-}
-
 @media only screen and (min-device-width: 768px) {
     h3#subtitle, h3#header {
         font-size: 2.5vw;
@@ -62,6 +64,15 @@ label.heading::after {
     li {
         font-size: 2vw;
     }
+    div#itk-applab {
+        background-image: url(./assets/images/mywork/itk-applab/banner-md.png);
+    }
+    div#ninetymin {
+        background-image: url(./assets/images/mywork/90min/banner-md.png);
+    }
+    div#handoverms {
+        background-image: url(./assets/images/mywork/handoverms/banner-md.png);
+    }
 }
 
 @media screen and (min-device-width: 1200px) {
@@ -71,8 +82,18 @@ label.heading::after {
     label.heading {
         font-size: 1.3vw;
     }
-    div#itk-applab.banner {
-        background-image: url(../assets/images/mywork/itk-applab/banner-lg.png);
+    div.banner {
+        height: 50vh;
+        background-repeat: repeat;
+    }
+    div#itk-applab {
+        background-image: url(./assets/images/mywork/itk-applab/banner-lg.png);
+    }
+    div#ninetymin {
+        background-image: url(./assets/images/mywork/90min/banner-lg.png);
+    }
+    div#handoverms {
+        background-image: url(./assets/images/mywork/handoverms/banner-lg.png);
     }
     li {
         font-size: 1.2vw;
