@@ -136,7 +136,8 @@ div#navbar-menu-items {
     bottom: 0;
     z-index: 100;
     /*nav menu items*/
-    background-color: rgba(0, 0, 0, 0.6);
+    color: #990011;
+    background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(5px);
     padding-top: 50px;
     padding-right: 10px;
@@ -149,7 +150,6 @@ div#navbar-menu-items>ul>* {
     padding-bottom: 10px;
     padding-left: 3px;
     font-size: 25px;
-    color: white;
 }
 
 div#navbar-menu-items details :not(summary) {
@@ -167,8 +167,8 @@ div#navbar-menu-items sub {
 
 div.dropdown-content {
     padding: 5px 10px;
-    background-color: wheat;
-    color: black;
+    background-color: #606060;
+    color: #D6ED17;
     border-radius: 10px;
     display: none;
     top: 15px;
@@ -191,7 +191,7 @@ label.close-icon {
     right: 5px;
     font-size: 40px;
     letter-spacing: 10px;
-    color: white;
+    color: #990011;
 }
 
 #title {
@@ -209,7 +209,7 @@ span#contact-me-action-button {
     color: white;
     width: 60px;
     height: 60px;
-    background: blue;
+    background: #2BAE66;
     border-radius: 50%;
     z-index: 50;
     /*contact button*/
@@ -242,11 +242,12 @@ div#contact-me-details {
 }
 
 div#contact-me-details label.close-icon {
+    color: white;
     top: 10vh;
 }
 
 div#contact-me-details>div {
-    background-color: white;
+    background-color: #FFD662;
     padding: 5vh 4vw;
 }
 
@@ -256,13 +257,19 @@ div#contact-me-details>div>div.flex.row {
 
 div#contact-me-details input.contact-me {
     padding: 15px;
-    border: 1px solid black;
-    background-color: gray;
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #bdbdbd;
     margin-left: 15px;
+    cursor: not-allowed;
 }
 
 button.copy-button {
     padding: 15px;
+    border: none;
+    background-color: #F2EDD7;
+    color: #755139;
 }
 
 .tooltip {

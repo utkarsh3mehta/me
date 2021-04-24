@@ -14,14 +14,14 @@ div.bodySection>div {
 }
 
 div#hi {
-    background-color: black;
-    color: blueviolet;
+    background-color: #292826;
+    color: #F9D342;
     font-size: 40vw;
 }
 
 div#itsme {
-    background-color: blueviolet;
-    color: black;
+    background-color: #F9D342;
+    color: #292826;
     font-size: 30vw;
 }
 
