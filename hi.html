@@ -16,22 +16,22 @@
         <i class="fa fa-bars" onclick="navbarHamburger()"></i>
         <div class="screen-menu-items w-100 w-lg-50 space-between">
             <a href="./index.html">home</a>
-            <div id="dropdown-mywork" class="relative">
-                <a id="mywork" href="./mywork.html">my work</a>
-                <div id="dropdown-content-mywork" class="column dropdown-content absolute">
-                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+            <div class="dropdown relative">
+                <a href="./mywork.html">my work</a>
+                <div class="column dropdown-content absolute">
                     <a href="./mywork/itk-applab.html">ITK - App Lab</a>
                 </div>
             </div>
-            <div id="dropdown-solution" class="relative">
-                <a id="solution" href="./solutions.html">solution, my power</a>
-                <div id="dropdown-content-solution" class="column dropdown-content absolute">
+            <div class="dropdown relative">
+                <a href="./solutions.html">solution, my power</a>
+                <div class="column dropdown-content absolute">
                     <a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a>
-                    <a href="./solutions/invoke-azure.html">handover MS</a>
                 </div>
             </div>
+            <a href="./knowledge.html">gained knowledge</a>
             <a href="./workxp.html">work xp</a>
             <a href="./hobbies.html">hobbies</a>
+            <a href="./social.html">socials</a>
         </div>
     </nav>
     <div class="flex center" id="navbar-menu-items" style="display: none;">
@@ -51,8 +51,10 @@
                     <li><a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a></li>
                 </ul>
             </details>
+            <li><a href="./knowledge.html">gained knowledge</a></li>
             <li><a href="./workxp.html">work xp</a></li>
             <li><a href="./hobbies.html">hobbies</a></li>
+            <li><a href="./social.html">socials</a></li>
         </ul>
     </div>
     <!-- end of navbar section -->
@@ -86,18 +88,22 @@
             allows people to improve their way of expression and built better creators, artists and what not.</p>
         <div class="legalities">
             <label>I solemely swear this is the best version of me</label>
-            <input type="checkbox" checked />
-            <!-- TODO:update legalities -->
+            <!-- All information in this resume is right and truthful to the best of my knowledge. -->
+            <input type="checkbox" disabled checked />
         </div>
         <h3 class="thank-you">Thank you</h3>
     </div>
     <!-- end of body section -->
     <!-- start of footer section -->
     <div class="footer flex center fixed w-100">
-        <a href="#" class="flex center align-center" id="linkedin" title="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="flex center align-center" id="github" title="github"><i class="fa fa-github"></i></a>
-        <a href="#" class="flex center align-center" id="angellist" title="angellist"><i class="fa fa-angellist"></i></a>
-        <a href="./social.html" class="flex center align-center absolute" id="others" title="other social media accounts"><i class="fa fa-ellipsis-h"></i></a>
+        <a href="https://www.linkedin.com/in/utkarsh0mehta/" class="flex center align-center" id="linkedin"
+            title="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/utkarsh3mehta" class="flex center align-center" id="github" title="github"><i
+                class="fab fa-github"></i></a>
+        <a href="https://angel.co/u/utkarsh-mehta-9" class="flex center align-center" id="angellist"
+            title="angellist"><i class="fab fa-angellist"></i></a>
+        <a href="./social.html" class="flex center align-center absolute" id="others"
+            title="other social media accounts"><i class="fa fa-ellipsis-h"></i></a>
     </div>
     <!-- end of footer section -->
     <!-- Scripts start from here -->

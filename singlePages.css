@@ -6,14 +6,14 @@ h3#header {
 }
 
 h2#title {
-    font-size: 10vw;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 div.banner {
     height: 40vh;
-    width: 100vw;
+    margin-left: -5px;
+    margin-right: -5px;
     margin-left: -5px;
     background-size: contain;
     background-position: center;
@@ -53,21 +53,18 @@ label.heading::after {
 }
 
 @media only screen and (min-device-width: 768px) {
-    h2#title {
-        font-size: 8vw;
-    }
     h3#subtitle, h3#header {
         font-size: 2.5vw;
     }
     label.heading {
         font-size: 2.3vw;
     }
+    li {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (min-device-width: 1200px) {
-    h2#title {
-        font-size: 5vw;
-    }
     h3#subtitle, h3#header {
         font-size: 1.5vw;
     }
@@ -76,5 +73,8 @@ label.heading::after {
     }
     div#itk-applab.banner {
         background-image: url(../assets/images/mywork/itk-applab/banner-lg.png);
+    }
+    li {
+        font-size: 1.2vw;
     }
 }

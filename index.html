@@ -16,18 +16,16 @@
         <i class="fa fa-bars" onclick="navbarHamburger()"></i>
         <div class="screen-menu-items w-100 w-lg-50 space-between">
             <a href="./hi.html">h(I)</a>
-            <div id="dropdown-mywork" class="relative">
-                <a id="mywork" href="./mywork.html">my work</a>
-                <div id="dropdown-content-mywork" class="column dropdown-content absolute">
-                    <a href="./mywork/itk-applab.html">ITK - App Lab</a>
+            <div class="dropdown relative">
+                <a href="./mywork.html">my work</a>
+                <div class="column dropdown-content absolute">
                     <a href="./mywork/itk-applab.html">ITK - App Lab</a>
                 </div>
             </div>
-            <div id="dropdown-solution" class="relative">
-                <a id="solution" href="./solutions.html">solution, my power</a>
-                <div id="dropdown-content-solution" class="column dropdown-content absolute">
+            <div class="dropdown relative">
+                <a href="./solutions.html">solution, my power</a>
+                <div class="column dropdown-content absolute">
                     <a href="./solutions/invoke-azure.html">invoke-azurermvmcommand</a>
-                    <a href="./solutions/invoke-azure.html">handover MS</a>
                 </div>
             </div>
             <a href="./knowledge.html">gained knowledge</a>
@@ -64,12 +62,13 @@
     <div class="flex column bodySection">
         <div class="flex center align-center w-100" id="hi">Hey</div>
         <div class="flex center align-center w-100" id="itsme">there</div>
-        <!-- contact me action button start here -->
-        <span id="contact-me-action-button" class="index flex center align-center" onclick="contactMeDetails()">
-            <i class="fa fa-phone"></i><label>Contact me</label>
-        </span>
-        <!-- end of contact me action button -->
     </div>
+    <!-- end of body section -->
+    <!-- contact me action button start here -->
+    <span id="contact-me-action-button" class="index flex center align-center" onclick="contactMeDetails()">
+        <i class="fa fa-phone"></i><label>Contact me</label>
+    </span>
+    <!-- end of contact me action button -->
     <!-- contact me details section -->
     <div id="contact-me-details" class="flex center align-center" style="display:none">
         <label class="close-icon" onclick="contactMeDetails()">&times;</label>
@@ -98,9 +97,7 @@
             </div>
         </div>
     </div>
-    <!-- TODO: Add footer -->
     <!-- end of contact me details section -->
-    <!-- end of body section -->
     <!-- Scripts start from here -->
     <script src="./script.js"></script>
 </body>

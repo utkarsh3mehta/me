@@ -1,21 +1,10 @@
-#title {
-    font-size: 10vw;
-}
-
 #subtitle {
     font-size: 5vw;
-    color: gray;
     margin-bottom: 10px;
 }
 
 .socials {
     padding-top: 10vh;
-}
-
-.social {
-    /* border: 1px solid gray; */
-    height: 25vh;
-    /* margin: 5px 0; */
 }
 
 .social:hover {
@@ -76,32 +65,33 @@
     background-color: black;
 }
 
+#stack-overflow {
+    color: black;
+    background-color: #c8c8c8;
+}
+
+#spotify {
+    color: white;
+    background-color: #1DB954;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    #title {
-        font-size: 8vw;
-    }
     #subtitle {
         font-size: 4vw;
     }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-    #title {
-        font-size: 7vw;
-    }
     #subtitle {
         font-size: 3vw;
     }
 }
 
 @media only screen and (min-device-width: 1200px) {
-    #title {
-        font-size: 5vw;
-    }
     #subtitle {
         font-size: 2vw;
     }
-    #snapchat, #google, #instagram, #strava, #microsoft, #skype, #reddit, #steam, #youtube, #medium {
+    #snapchat, #google, #instagram, #strava, #microsoft, #skype, #reddit, #steam, #youtube, #medium, #stack-overflow, #spotify {
         color: black;
         background: white;
     }
@@ -144,5 +134,12 @@
     #medium:hover {
         color: white;
         background-color: black;
+    }
+    #stack-overflow:hover {
+        background-color: #c8c8c8;
+    }
+    #spotify:hover {
+        color: white;
+        background-color: #1DB954;
     }
 }
