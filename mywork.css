@@ -1,6 +1,7 @@
 h1#application-created {
     padding-top: 10vh;
     margin-right: 5px;
+    margin-bottom: 20px;
 }
 
 .single-app {
@@ -35,6 +36,10 @@ h1#application-created {
 
 .others-nda {
     background-color: darkslategrey;
+}
+
+#motivation {
+    margin-top: 20px;
 }
 
 @media only screen and (min-device-width: 768px) {

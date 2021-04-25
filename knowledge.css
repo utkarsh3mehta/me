@@ -9,6 +9,9 @@
 h3.header-division {
     font-size: 7vw;
     margin: 10px 0;
+    position: sticky;
+    top: 10vh;
+    background-color: white;
 }
 
 .knowledge-new-single {
