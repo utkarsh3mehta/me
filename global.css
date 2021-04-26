@@ -10,7 +10,7 @@ Global CSS for utkarshmehta.me
     font-family: 'Ubuntu Mono', monospace;
     box-sizing: border-box;
     text-transform: lowercase;
-    text-align: right;
+    /* text-align: right; */
 }
 
 *:focus {
